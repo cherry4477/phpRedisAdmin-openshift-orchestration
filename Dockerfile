@@ -1,4 +1,5 @@
-FROM composer/composer
+# FROM composer/composer
+FROM composer/composer:alpine
 
 ADD . /src/app/
 WORKDIR /src/app
